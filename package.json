@@ -1,0 +1,32 @@
+{
+  "name": "agentflow-typescript",
+  "version": "0.1.0",
+  "description": "A minimalist, async-first TypeScript framework for building, orchestrating, and managing AI agents and workflows. Inspired by the Rust PocketFlow crate.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"No tests yet\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/The-Pocket/pocketflow-typescript.git"
+  },
+  "keywords": [
+    "llm",
+    "agent",
+    "rag",
+    "workflow",
+    "async",
+    "typescript"
+  ],
+  "author": "Engr. Stephen Ezekwem <stephen.ezekwem@gmail.com>",
+  "license": "MIT OR Apache-2.0",
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "openai": "^5.15.0"
+  }
+}
